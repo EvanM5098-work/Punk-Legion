@@ -342,14 +342,27 @@ footer p{
         border: 3px solid green;
         border-radius: 20px;
     }
-    
-    label select{
-        border-radius: 20px;
-        margin-top: 10px;
-        border: none;
+}
+
+@media screen and(max-width:250px){
+    .container{
+        color: white;
     }
-    .contact{
-        margin-top: 10px;
+    .intro-container{
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+    .intro-message{
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .game-image {
+        width: 100px;
+        animation-name: none;
+        animation-duration: none;
+        border: 3px solid green;
+        border-radius: 20px;
     }
 }
 /*responsiveness*/
