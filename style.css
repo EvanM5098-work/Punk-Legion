@@ -68,7 +68,7 @@ li a {
     color: white;
     background-color: black;
     padding-left: 100px;
-    margin: 100px 100px;
+    margin: 100px;
     text-align: center;
     border: 5px solid orange;
     box-sizing: border-box;
@@ -282,6 +282,9 @@ footer p{
 }
 
 @media screen and (max-width: 1000px){
+    .container{
+        color: black;
+    }
     .games h1{
         padding-right: 150px;
     }
