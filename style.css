@@ -66,7 +66,6 @@ li a {
 /*body*/
 .intro-container{
     color: white;
-    width: auto;
     background-color: black;
     padding-left: 100px;
     margin-left: 200px;
@@ -150,8 +149,7 @@ em{
     width: fit-content;
     border:  2px solid purple;
     border-radius: 10px;
-    color: orange;
-    transition-property: color border;
+    transition-property: border;
     transition-duration: 1s;
 }
 
