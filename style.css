@@ -336,6 +336,9 @@ footer p{
     .container{
         color: white;
     }
+    .home{
+        font-size: larger;
+    }
     .intro-container{
         padding-left: 0px;
         margin: 0;
