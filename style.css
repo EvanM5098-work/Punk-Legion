@@ -5,14 +5,13 @@
 /*top navbar*/
 .container{
     width: auto;
-    color: black;
+    height: fit-content;
+    color: whitesmoke;
     font: 25px/1.3 'Oleo Script', Helvetica, sans-serif;
     margin: auto;
     text-align: center;
     overflow: hidden;
     border-bottom: 2px solid orange;
-    background-image: url(images/skynight.jpg);
-    background-position: left;
     box-sizing: border-box;
 }
 
@@ -27,8 +26,14 @@ header nav ul li{
     list-style: none;
     padding-left: 30px;
     padding-right: 30px;
-    float: left;
     box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
 }
 li a:hover {
     border-top:2px solid purple;
@@ -36,7 +41,7 @@ li a:hover {
     border-right:2px solid red;
     border-bottom: 2px solid green;
     border-radius: 20px;
-    transition-property: color border-left border-top border-right;
+    transition-property: color border;
     transition-duration: 1s;
     color: orange;
 }
@@ -118,30 +123,16 @@ li a {
     padding-left: 100px;
     padding-right: 100px;
     font-size: larger;
-    float: left;
-    width: 480px;
+    width: fit-content;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px orangered;
 }
-
 strong{
     color: orange;
 }
 
 em{
     color: orange;
-}
-
-.member-link{
-    margin: 0 auto;
-    color: white;
-    font: 400 30px/1.3 'Oleo Script', Helvetica, sans-serif;
-}
-
-.member{
-    padding: 10px;
-    margin: 0 auto;
-    width: fit-content;
 }
 
 .member:hover{
