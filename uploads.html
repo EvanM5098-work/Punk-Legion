@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Punk Legion</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+        <!--
+            Add some more info about the group.
+            Create background moving effect/animation.
+        -->
+    </head>
+    <body>
+        <div  class="container group">
+            <header>
+                <h1>Punk Legion</h1>
+                <!--top navbar-->
+                <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Punk-Legion/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Punk-Legion/profiles/members.html">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="uploads.html">Upload Center</a>
+                    </li>-
+                </ul>             
+                <!--<nav>
+                    <ul>
+                        <li class="home"><a href="../Punk-Legion/index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </header>-->
+        </div>
+        <div class="uploads">
+            <h1>Uploads Center</h1>
+            <p>Got funny videos or pictures? Feel free to upload them here!</p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/U89m3vt8JjU&t=8s">
+            </iframe>
+            <form id="uploadForm" method="post" runat="server" enctype="multipart/form-data">
+                <input id="filMyFile" type="file" runat="server"/>
+            </form>            
+        </div>

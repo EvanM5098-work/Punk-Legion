@@ -1,7 +1,6 @@
  html{
       background-image: url(images/camo.jpg);
   }
-
 /*top navbar*/
 .container{
     width: auto;
@@ -14,21 +13,17 @@
     border-bottom: 2px solid orange;
     box-sizing: border-box;
 }
-
-
 header h1:hover{
     color: orange;
     transition-property: color;
     transition-duration: 2s;
 }
-
 header nav ul li{
     list-style: none;
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
 }
-
 .nav{
     display: flex;
     flex-wrap: wrap;
@@ -50,24 +45,17 @@ li a {
     color: white;
     padding: 5px 10px 5px 10px;
 }
-
-
-
 .group:before, .group:after {
     content: " ";
     display: block;
 }
-
 .group:after{
     clear: both;
 }
 .group {
     zoom: 1;
 }
-
 /*top navbar*/
-
-
 /*body*/
 .intro-container{
     color: white;
@@ -78,18 +66,15 @@ li a {
     border: 5px solid orange;
     box-sizing: border-box;
 }
-
 .newclass-text {
     font-size: 50px;
 }
-
 .newclass {
     margin: 0 auto;
     margin-top: 100px;
     max-width: 450px;
     font: 400 80px/1.3 'Oleo Script', Helvetica, sans-serif;
 }
-
 .newclass:hover {
     border:  2px solid purple;
     border-radius: 10px;
@@ -99,29 +84,30 @@ li a {
 }
 .logo {
     max-width: 400px;
-    border-radius: 360px;
-    border: 2px solid orange;
+    border-radius: 20px;
+    border-bottom:2px solid green;
+    border-right: 2px solid red;
+    border-top: 2px solid purple;
+    border-left: 2px solid blue;
     margin-top: 30px;
     box-sizing: border-box;
-    box-shadow: 10px  10px 25px orangered;
 }
-
 .logo:hover {
-    border: 5px solid red;
-    transition-property: border;
-    transition-duration: 1s;
+    animation-name: spinningBorder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition-property:border animation;
 }
-
 .intro-message:hover {
     background-image: linear-gradient(to bottom right, black, rgb(83, 56, 4));
     transition-property: background-image;
     transition-duration: 2s;
 }
-
 .intro-message {
     border-radius: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-right: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: larger;
     width: fit-content;
     box-sizing: border-box;
@@ -130,11 +116,9 @@ li a {
 strong{
     color: orange;
 }
-
 em{
     color: orange;
 }
-
 .member:hover{
     width: fit-content;
     border:  2px solid purple;
@@ -142,20 +126,17 @@ em{
     transition-property: border;
     transition-duration: 1s;
 }
-
 .games{
     width: 560px;
     margin-right: auto;
     margin-left: auto;
 }
-
 .games h1{
     margin-top: 100px;
     font: 400 80px/1.3 'Oleo Script', Helvetica, sans-serif;
     box-sizing: border-box;
     width: fit-content;
 }
-
 .games h1:hover{
     width: fit-content;
     border:  2px solid purple;
@@ -175,7 +156,6 @@ em{
     transition-property: color border;
     transition-duration: 1s;
 }
-
 .gta {
     width: 300px;
 }
@@ -190,13 +170,9 @@ em{
     width: 300px;
     border-radius: 20px;
 }
-
-
 .description {
     font-size: larger;
 }
-
-
 .gta:hover{
     border: 3px solid green;
     border-radius: 20px;
@@ -213,7 +189,6 @@ em{
     animation-name: fadeReturn;
     animation-duration: 1s;
 }
-
 .nms:hover{
     border: 3px solid orangered;
     border-radius: 20px;
@@ -222,7 +197,6 @@ em{
     animation-name: fadeReturn;
     animation-duration: 1s;
 }
-
 .nfs:hover{
     border: 3px solid purple;
     border-radius: 20px;
@@ -271,7 +245,6 @@ footer p{
     }
 
 }
-
 @media screen and (max-width: 1000px){
     .container{
         color: black;
@@ -290,7 +263,6 @@ footer p{
         margin-right: 200px;
     }
 }
-
 @media screen and (max-width: 850px){
     .container{
         color: white;
@@ -322,7 +294,6 @@ footer p{
         border-radius: 20px;
     }
 }
-
 @media screen and(max-width:250px){
     .container{
         color: white;
@@ -379,4 +350,63 @@ footer p{
         opacity: 1;
     }
 }
+@keyframes spinningBorder{
+    25%{
+        border-bottom:2px solid green;
+        border-right: 2px solid red;
+        border-top: 2px solid purple;
+        border-left: 2px solid blue;
+    }
+    50%{
+        border-bottom: 2px solid blue;
+        border-right: 2px solid green;
+        border-top: 2px solid red;
+        border-left: 2px solid purple;
+    }
+    75%{
+        border-bottom:2px solid purple;
+        border-right: 2px solid blue;
+        border-top: 2px solid green;
+        border-left: 2px solid red;
+    }
+    100%{
+        border-bottom:2px solid red;
+        border-right: 2px solid purple;
+        border-top: 2px solid blue;
+        border-left: 2px solid green;
+    }
+}
 /*animations*/
+
+/*uploads page*/
+.uploads h1{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    color: white;
+}
+.uploads h1:hover{
+    border-top:2px solid purple;
+    border-left:2px solid blue;
+    border-right:2px solid red;
+    border-bottom: 2px solid green;
+    border-radius: 20px;
+    color: orange;
+    transition-property: color border;
+    transition-duration: 2s;
+}
+.uploads p {
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    color: white;
+}
+.uploads{
+    width: auto;
+    margin: 0 auto;
+    border: 2px solid orange;
+    background-color: black;
+}
