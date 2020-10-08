@@ -306,6 +306,7 @@ footer p{
         margin: 0;
     }
     .intro-message{
+        margin-right: 20px;
         width: auto;
         padding-left: 10px;
         padding-right: 10px;
