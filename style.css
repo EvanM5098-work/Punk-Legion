@@ -295,7 +295,7 @@ footer p{
     }
 }
 @media screen and(max-width:250px){
-    .container{
+    .container h1{
         color: white;
     }
     .home{
