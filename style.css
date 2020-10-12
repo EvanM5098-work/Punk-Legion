@@ -170,6 +170,11 @@ em{
     width: 300px;
     border-radius: 20px;
 }
+
+.rocketl{
+    width: 300px;
+    border-radius: 20px;
+}
 .description {
     font-size: larger;
 }
@@ -199,6 +204,14 @@ em{
 }
 .nfs:hover{
     border: 3px solid purple;
+    border-radius: 20px;
+    transition-property: border;
+    transition-duration: 1;
+    animation-name: fadeReturn;
+    animation-duration: 1s;
+}
+.rocketl:hover{
+    border: 3px solid blue;
     border-radius: 20px;
     transition-property: border;
     transition-duration: 1;
