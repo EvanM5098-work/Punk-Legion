@@ -12,6 +12,7 @@
     overflow: hidden;
     border-bottom: 2px solid orange;
     box-sizing: border-box;
+    background-color: black;
 }
 header h1:hover{
     color: orange;
@@ -54,6 +55,20 @@ li a {
 }
 .group {
     zoom: 1;
+}
+.clock{
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+.clock:hover{
+    border-top:2px solid purple;
+    border-left:2px solid blue;
+    border-right:2px solid red;
+    border-bottom: 2px solid green;
+    border-radius: 20px;
+    transition-property: border;
+    transition-duration: 1s;
 }
 /*top navbar*/
 /*body*/

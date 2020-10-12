@@ -1,9 +1,6 @@
 html {
     background: url(../images/camo.jpg);
 }
-header{
-    border-bottom: 3px solid orange;
-}
 header h1:hover{
     color: orange;
     transition-property: color;
@@ -16,7 +13,10 @@ header nav ul li{
     padding-right: 30px;
     box-sizing: border-box;
 }
-
+.intro{
+    background-color: black;
+    border-bottom: 3px solid orange;
+}
 .nav{
     display: flex;
     flex-wrap: wrap;

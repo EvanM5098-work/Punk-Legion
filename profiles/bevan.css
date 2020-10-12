@@ -21,6 +21,10 @@ html{
     box-sizing: border-box;
 }
 
+.intro{
+    background-color: black;
+    border-bottom: 3px solid orange;
+}
 .nav{
     display: flex;
     flex-wrap: wrap;

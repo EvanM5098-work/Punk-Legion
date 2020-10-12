@@ -26,6 +26,10 @@ html{
     justify-content: center;
 }
 
+.intro{
+    background-color: black;
+    border-bottom: 3px solid orange;
+}
 header h1:hover{
     color: orange;
     transition-property: color;
